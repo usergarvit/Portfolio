@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: rgb(146, 146, 24);
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+/* Header */
+header {
+    background-color: rgb(10, 10, 107);
+    color: white;
+    padding: 20px 0;
+}
+
+.logo {
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: yellow;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Hero Section */
+.hero {
+    background-color: rgb(10, 10, 107);
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.hero img{
+    width: 200px;
+    position: relative;
+    top: -150px;
+    left: 398px;
+}
+
+.hero p {
+    color: rgb(194, 152, 194);
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* About */
+/* .about,
+.projects,
+.contact,
+{
+padding : 50px 0;
+/* background-color: white; */
+/* margin-top : 20px; */
+} */
+
+.about, .projects, .contacts{
+    padding: 50px 0;
+    margin: 20px;
+}
+
+.projects .project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
