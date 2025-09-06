@@ -101,14 +101,12 @@ nav ul li a:hover {
 .contacts {
     padding: 50px 20px;
     margin: 20px auto;
-    background: white;
     border-radius: 8px;
 }
 
 #CV{
     padding: 50px 20px;
     margin: 20px auto;
-    background: white;
     border-radius: 8px;
 }
 
@@ -147,4 +145,5 @@ footer {
         font-size: 1rem;
         padding: 10px;
     }
+
 }
